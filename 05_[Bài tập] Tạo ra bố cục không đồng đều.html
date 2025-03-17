@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid: 100px 100px / 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 15px;
+            width: 65%;
+        }
+        .container div{
+            border-radius: 8px;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(151, 0, 151);
+        }
+        .c7{
+            grid-column:1/2 ;
+        }
+        .c8{
+            grid-column: 6/7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div class="c7">7</div>
+        <div class="c8">8</div>
+    </div>
+</body>
+</html>
