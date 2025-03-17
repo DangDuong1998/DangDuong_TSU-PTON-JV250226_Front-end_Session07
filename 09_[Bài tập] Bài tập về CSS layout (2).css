@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+body{
+    width: 1300px;
+    padding: 20px;
+    display: grid;
+    grid: 400px 200px 200px / 1fr 1fr 1fr;
+    gap: 10px;
+}
+[class^=tile]{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.tile_a01{
+    background-image: url(https://images6.alphacoders.com/369/369775.jpg);
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 40px;
+    grid-column: 1 /span 3;
+    gap: 30px;
+
+}
+[class^=tile_0]{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 100px;
+    gap: 30px;
+}
+.tile_02{
+    background-image: url(https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F494027a/MediaObjects/41586_2013_BF494027a_Figa_HTML.jpg);  
+}
+.tile_03{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/250777342.jpg?k=7432eb014549dae1e3a60077f5d7bb218d22854c9ad8a25f0902826269bb8d5c&o=&hp=1);
+}
+.tile_04{
+    background-image: url(https://c0.wallpaperflare.com/preview/932/823/688/sunset-silhouette-mountains-car.jpg);
+}
+.tile_05{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/863981955927942779/13438EF146BEF64F6F5E18BA95AC2F2B15998CE6/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+}
+.tile_a06{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(146, 0, 0);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.sign{
+    background-color: white;
+    color: rgb(146, 0, 0);
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 6px;
+}
+.tile_07{
+    background-image: url(https://t4.ftcdn.net/jpg/09/65/05/19/360_F_965051906_Gsz61kDjHDIi8EmADLleenJimJWjVCkH.jpg);
+}
