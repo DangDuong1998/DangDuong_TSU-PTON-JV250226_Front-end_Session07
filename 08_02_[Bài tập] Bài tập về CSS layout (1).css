@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h1{
+    font-size: 45px;
+    color: rgb(90, 90, 90);
+    padding: 30px;
+}
+.list{
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}
+.book{
+    border: 1px solid rgba(92, 92, 92, 0.151);
+    border-radius: 10px;
+    box-shadow:  0 0 8px 3px rgba(0, 0, 0, 0.116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 25px;
+    gap: 15px;
+}
+[class^=bookcover]{
+    width: 130px;
+    border: 1px;
+    aspect-ratio: 1 /1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.book p{
+    color: rgb(129, 129, 129);
+    font-size: 18px;
+}
+.bookcover01{
+    background-position: top;
+    background-image: url(https://bookdesigners.com/img/paths/img/containers/assets/0f0c27ae60eb642ef1e98c65dee023be.jpg/c0afcd4b75c331cecd732f243e014cbe.jpg/1f133e3c58615e61af4f677c7a7a6e1b.jpg);
+}
+.bookcover02{
+    background-position: top;
+    background-image: url(https://bookdesigners.com/img/paths/img/containers/assets/blog/Screen-Shot-2021-07-27-at-1.31.58-PM.png/1d80811356b6cdab9bfb5543897f9a9c.png/b679dc56e9d20899b846028438fca275.png);
+}
+.bookcover03{
+    background-position: top;
+    background-image: url(https://bookdesigners.com/img/paths/img/containers/assets/blog/Screen-Shot-2021-07-27-at-12.34.45-PM.png/facdec4eb72d80871e9e84d258dd773a.png/eb11ffba26e8b9d2f123ca5c1f55422f.png);
+}
+.bookcover04{
+    background-position: top;
+    background-image: url(https://bookdesigners.com/img/paths/img/containers/assets/blog/Screen-Shot-2021-07-27-at-12.35.03-PM.png/55b6a654cb6ab8fa79d8d5c721ad997d.png/fcbc71148f112eaa30b6ce0e50418f1a.png);
+}
+.bookcover05{
+    background-position: top;
+    background-image: url(https://bookdesigners.com/img/paths/img/containers/assets/blog/Screen-Shot-2021-07-27-at-1.57.52-PM.png/00d086b2e7b0288b1501661b1851e641.png/5d5b8f12d4152c16057a3c973e7aab8c.png);
+}
+.bookcover06{
+    background-position: top;
+    background-image: url(https://bookdesigners.com/img/paths/img/containers/assets/blog/Screen-Shot-2021-07-27-at-1.58.38-PM.png/1c238255d76d050b8c6b415f29b742a3.png/fa609bbe460dde04624696678e6b39a1.png);
+}
+.book button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 15px;
+}
